@@ -11,13 +11,11 @@ function Detail() {
       await fetch(`https://yts.mx/api/v2/movie_details.json?movie_id=${id}`)
     ).json();
     setMovie(json.data.movie);
-    console.log(movie);
     setLoading(false);
   };
 
   useEffect(() => {
     getMovie();
-    console.log();
   }, []);
 
   return (

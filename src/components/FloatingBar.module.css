@@ -1,0 +1,37 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  /* background-color: rgb(9, 12, 27); */
+}
+
+.floating {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: lightgray;
+  width: 60px;
+  height: 120px;
+  top: 50px;
+  right: 10px;
+}
+
+.btn__darkmode {
+  background: url("../../public/night.png") center no-repeat;
+  background-size: 30px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  width: 45px;
+  height: 45px;
+  border: none;
+}
+
+.btn__lightmode {
+  background: url("../../public/day.png") center no-repeat;
+  background-size: 30px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  width: 45px;
+  height: 45px;
+  border: none;
+}
