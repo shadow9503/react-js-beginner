@@ -7,4 +7,8 @@ export const GlobalStyle = createGlobalStyle`
         background: ${({ theme }) => theme.bgColor};
         color: ${({ theme }) => theme.textColor};
     }
+    .movie {
+        background: "#fff";
+        color: "#fff";
+    }
 `;

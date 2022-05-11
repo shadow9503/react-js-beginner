@@ -1,7 +1,6 @@
 import Movie from "../components/Movie";
 import { useState, useEffect, useRef } from "react";
-import styled from "styled-components";
-import { useTheme } from "../context/themeProvider";
+import FloatingBar from "../components/FloatingBar";
 
 function Home() {
   const [loading, setLoading] = useState(true);

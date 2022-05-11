@@ -4,6 +4,10 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+#movielist {
+  background-color: rgb(246 246 246);
+}
+
 .movie {
   background-color: white;
   margin-top: 70px;
